@@ -1,0 +1,12 @@
+﻿@model GerenciadorDespesas.ViewModels.EstatisticasViewModel
+
+@{
+    ViewData["Title"] = "Default";
+}
+
+    <div>
+        <p>Despesas Cadastradas: @Model.QuantidadeDespesas</p>
+        <p>Menor Despesa: @Model.MenorDespesa</p>
+        <p>Maior Despesa: @Model.MaiorDespesa</p>
+    </div>
+
